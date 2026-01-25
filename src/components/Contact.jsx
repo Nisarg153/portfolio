@@ -42,7 +42,7 @@ const Contact = () => {
           to_email: "nisargchauhan.2001@gmail.com",
           message: form.message,
         },
-        'vKt90qYHz7LQuaJEY'
+        'Nm8JGt24IPVK-6xy-'
       )
       .then(
         () => {
