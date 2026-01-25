@@ -33,16 +33,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        service_2pukq2k,
-        template_zlak4fp,
+        'service_2pukq2k',
+        'template_zlak4fp',
         {
           from_name: form.name,
           to_name: "Nisarg Chauhan",
           from_email: form.email,
-          to_email: "nisargchauhan15@gmail.com",
+          to_email: "nisargchauhan.2001@gmail.com",
           message: form.message,
         },
-        vKt90qYHz7LQuaJEY
+        'vKt90qYHz7LQuaJEY'
       )
       .then(
         () => {
