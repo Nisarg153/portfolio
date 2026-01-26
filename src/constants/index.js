@@ -24,6 +24,10 @@ import {
   //k8s,
   tripguide,
   threejs,
+  argocd,
+  aws,
+  k8s,
+  azure,
 } from "../assets";
 
 export const navLinks = [
@@ -48,11 +52,11 @@ const services = [
   // },
   {
     title: "Cloud Engineer",
-    icon: mobile,
+    icon: aws,
   },
   {
     title: "DevOps Engineer",
-    icon: backend,
+    icon: k8s,
   },
   // {
   //   title: "Content Creator",
@@ -83,15 +87,15 @@ const technologies = [
   // },
   {
     name: "AWS",
-    icon: redux,
+    icon: aws,
   },
   {
     name: "Azure",
-    icon: tailwind,
+    icon: azure,
   },
   {
-    name: "Jenkins",
-    icon: nodejs,
+    name: "ArgoCD",
+    icon: argocd,
   },
   // {
   //   name: "MongoDB",
@@ -107,7 +111,7 @@ const technologies = [
   },
   {
     name: "k8s",
-    icon: figma,
+    icon: k8s,
   },
   {
     name: "docker",
@@ -219,7 +223,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    // image: carrent,
+    //image: netflix,
     source_code_link: "https://github.com/Nisarg153/Netflix_Clone_Using_Kubernetes_DevSecOps_Project.git",
   },
   {

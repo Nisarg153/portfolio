@@ -6,7 +6,10 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import argocd from "./tech/argocd.png";
 
+import aws from "./tech/aws.webp";
+import azure from "./tech/azure.webp";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -20,7 +23,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import k8s from "./tech/k8s.webp";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -59,4 +62,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  k8s,
+  argocd,
+  aws,
+  azure
 };
