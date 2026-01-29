@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: portfolio-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: portfolio-app
+  template:
+    metadata:
+      labels:
+        app: portfolio-app
+    spec:
+      containers:
+        - name: portfolio-container
+          image: nisarg153/portfolio-prod-nginx:1.3
+          ports:
+            - containerPort: 80
