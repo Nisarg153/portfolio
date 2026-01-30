@@ -27,3 +27,8 @@ dist-ssr
 
 # vscode
 .vscode
+
+
+
+argocd_github_key
+argocd_github_key.pub
