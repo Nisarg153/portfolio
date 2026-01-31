@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: portfolio-container
-          image: nisarg153/portfolio-prod-nginx:1.4
+          image: nisarg153/porfolio-prod-nginx:1.4
           ports:
             - containerPort: 80
