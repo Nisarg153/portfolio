@@ -42,8 +42,9 @@ const Contact = () => {
           // to_email: "nisargchauhan.2001@gmail.com",
           // message: form.message,
           name : form.name,
-          replay_to : form.email,
+          email : form.email,
           message : form.message,
+          replay_to : form.email,
         },
         'M1meCva6evsI1EB9x'
       )
