@@ -268,6 +268,27 @@ const projects = [
     image: tripguide,
     source_code_link: "https://github.com/Nisarg153/java-maven-sonar-argocd-helm-k8s.git",
   },
+  {
+    name: "Portfolio Deployment using ArgoCD and Kubernetes",
+    // description:
+    //   "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "CI/CD",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "k8s",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/Nisarg153/portfolio.git",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
